@@ -1,2 +1,3 @@
-# eddiekong.github.io
-Eddie Kong
+# edwardkong.github.io
+Edward Kong
+Welcome!
