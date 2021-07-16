@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(event){
-  var dataText = [ "I'm Eddie.", "Developer, Data Engineer, Designer."];
+  var dataText = [ "I'm Edward.", "Developer, Data Engineer, Designer."];
   // type one text in the typwriter
   // keeps calling itself until the text is finished
   function typeWriter(text, i, fnCallback) {
