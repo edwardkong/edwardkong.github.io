@@ -2,8 +2,6 @@ source "https://rubygems.org"
 
 gem 'cvless', '~> 2.2'
 
-gem "github-pages", "~> 231", group: :jekyll_plugins
-
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.17.0"
     gem "jekyll-gist", "~> 1.5"
