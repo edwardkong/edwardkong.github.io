@@ -1,0 +1,28 @@
+title: Edward Kong
+description: A site to host my cv and blog
+url: edwardkong.github.io
+
+theme: cvless
+
+# site settings
+taglong: Software and Data Engineer
+tagshort: Software and Data Engineer
+
+# author settings
+author:
+  name: Edward Kong
+  email: eddiekong13@gmail.com  
+photo: assets/files/headshot-bw-sq.jpeg
+
+# social media links
+social:
+  email: eddiekong13@gmail.com
+  github: edwardkong
+  linkedin: edward-kong-1a059114a
+
+# build settings
+permalink: pretty
+exclude:
+  - docker-compose.yml
+  - LICENSE
+  - README.md
