@@ -1,6 +1,6 @@
 title: Edward Kong
 description: A site to host my cv and blog
-baseurl: ""
+baseurl: "/edwardkong.github.io"
 url: edwardkong.github.io
 
 theme: cvless
