@@ -97,12 +97,12 @@ physicists estimate the number of atoms in the known universe to be *only* 10^80
 
 
 <figure>
-  <img src="../assets/files/chess-engine/bitboards.jpeg" style="display: block; margin: 0 auto;">
+  <img src="/assets/files/chess-engine/bitboards.jpeg" style="display: block; margin: 0 auto;">
   <figcaption style="text-align: center; font-size: 12px;"><i>12 bitboards represent the occupancy boards for each piece-type and color.</i></figcaption>
 </figure>
 
 <figure>
-  <img src="../assets/files/chess-engine/bitboard-bits.jpeg" style="display: block; margin: 0 auto;">
+  <img src="/assets/files/chess-engine/bitboard-bits.jpeg" style="display: block; margin: 0 auto;">
   <figcaption style="text-align: center; font-size: 12px;"><i>The board is represented in 64 bits, with a set bit implying the existence of a piece of the particular piece-type and color on the corresponding square.</i></figcaption>
 </figure>
 
@@ -173,7 +173,7 @@ The minimax algorithm forecasts future game states by exploring all potential mo
 ### Minimax Search
 
 <figure>
-  <img src="../assets/files/chess-engine/minimax.gif" style="display: block; margin: 0 auto;">
+  <img src="/assets/files/chess-engine/minimax.gif" style="display: block; margin: 0 auto;">
   <figcaption style="text-align: center; font-size: 12px;"><i>Minimax Algorithm finding the best move at 3 plies deep.</i></figcaption>
 </figure>
 
@@ -184,7 +184,7 @@ In practice, the engine starts with a few possible moves and expands each option
 To enhance the efficiency of the minimax algorithm, I incorporate [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning), which significantly reduces the number of evaluated positions by cutting off branches that cannot possibly affect the final decision.
 
 <figure>
-  <img src="../assets/files/chess-engine/minimax-ab.gif" style="display: block; margin: 0 auto;">
+  <img src="/assets/files/chess-engine/minimax-ab.gif" style="display: block; margin: 0 auto;">
   <figcaption style="text-align: center; font-size: 12px;"><i>Minimax Algorithm with alpha-beta pruning.˚v</i></figcaption>
 </figure>
 
