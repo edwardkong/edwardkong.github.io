@@ -280,4 +280,4 @@ Although there are many enhancements I'd like to make, for now, I'm marking this
 - **[ChessProgramming Wiki](https://www.chessprogramming.org/Main_Page)** — An invaluable resource on algorithms, techniques, and the history involved in programming chess engines.
 - **[Lichess](https://lichess.org)** — An open-source platform to play chess human vs human or engine vs engine.
 - **[Sebastian Lague](https://www.youtube.com/watch?v=U4ogK0MIzqk)** — whose video on building his chess engine inspired mine.
-- **[Sunfish](https://github.com/thomasahle/sunfish)** - one of the top Python chess engines from which I drew guidance and inspiration from.
+- **[Sunfish](https://github.com/thomasahle/sunfish)** — one of the top Python chess engines from which I drew guidance and inspiration from.
