@@ -238,13 +238,13 @@ def minimax_ab(self, board, depth, color, alpha, beta):
         return min_eval, best_move
 ```
 
-### Other Optimizations
+## Other Optimizations
 
-#### Transposition Tables
+### Transposition Tables
 
 To further optimize the search process, [transposition tables](https://www.chessprogramming.org/Transposition_Table) are used. Because a new search is performed each time it is the player's turn to move, many positions will be processed repeatedly. To remedy this, every processed position is stored in a lookup dictionary. Each entry contains information about previous evaluations and searches done from that position. Instead of performing expensive, repetitive calculations, recognizing a repeated position allows the engine to skip previously performed calculations by extracting the necessary information from the transposition table.
 
-#### Zobrist Hashing
+### Zobrist Hashing
 To manage the transposition tables efficiently, [Zobrist Hashing](https://www.chessprogramming.org/Zobrist_Hashing) is utilized as the hash key. This technique leverages the memory-efficient binary representation of the game state. The algorithm calculates a simple but relatively unique hash code to each board configuration, enabling quick storage and retrieval of previously evaluated positions. Zobrist hashing ensures that the engine can rapidly identify and access stored evaluations, speeding up the process of reading from and writing to the transposition table.
 
 ## Python's Limitations
