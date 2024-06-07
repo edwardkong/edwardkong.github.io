@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Building a Chess Engine in Python
-lead: How I developed a chess engine in pure Python: an overview of the techniques, algorithms, and limitations of Python.
+title: "Building a Chess Engine in Python"
+lead: "How I developed a chess engine in pure Python: techniques, algorithms, and limitations"
 ---
 
 As a chess enthusiast and programmer, my fascination with the technical challenges of building a chess engine inspired me to develop my own.
