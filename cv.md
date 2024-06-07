@@ -4,7 +4,7 @@ title: CV
 ---
 
 # Curriculum Vitæ
-###### [Print Version](/assets/files/cv.pdf)
+###### [Print Version](/assets/files/cv/cv.pdf)
 
 {% include contact.html %}
 
