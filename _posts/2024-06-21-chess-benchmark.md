@@ -59,7 +59,27 @@ Conversely, for 10 functions with the least execution time (>0.001 seconds), PyP
 
 ![Bottom 10 TET Graph](/assets/files/chess-benchmark/bottom10.png)
 
-To measure this relationship, I plotted the relative difference $$CPython\_time - PyPy\_time \over CPython\_time + PyPy\_time$$ against function call frequency and total function runtime on a logarithmic scale, where positive y-value represents a faster PyPy execution, while negative y-value represents a faster CPython execution.
+To measure this relationship, I plotted the relative difference 
+
+\[
+\frac{CPython_{time} - PyPy_{time}}{CPython_{time} + PyPy_{time}}
+\]
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+against function call frequency and total function runtime on a logarithmic scale, where positive y-value represents a faster PyPy execution, while negative y-value represents a faster CPython execution.
 
 
 ![RPD vs FCF Graph](/assets/files/chess-benchmark/rpfnfc.png)
