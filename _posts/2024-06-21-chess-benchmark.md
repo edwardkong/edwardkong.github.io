@@ -61,7 +61,7 @@ Conversely, for 10 functions with the least execution time (>0.001 seconds), PyP
 
 To measure this relationship, I plotted the relative difference
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center;align-items: center;">
 <img src="https://latex.codecogs.com/svg.image?\inline&space;\LARGE&space;\frac{CPython\_time-PyPy\_time}{CPython\_time&plus;PyPy\_time}" title="\frac{CPython\_time-PyPy\_time}{CPython\_time+PyPy\_time}"/>
 </div>
 
