@@ -52,14 +52,14 @@ def bitscan_lsb(bin):
     return (bin & -bin).bit_length() - 1
 ```
 
-This function alone saw a **9.42x** speedup with PyPy, highlighting PyPy's strength in optimizing simple, frequently executed code through its Just-In-Time (JIT) compilation.
+This function alone saw a **9.42x** speedup with PyPy, highlighting PyPy's strength in optimizing simple, frequently executed code through its JIT compilation.
 
 
 Conversely, for 10 functions with the least execution time (>0.001 seconds), PyPy was only **2.04x** faster than CPython. The speedups diminished as total runtime decreased, with CPython outperforming PyPy for shorter-running functions. This illustrates PyPy's initial overhead, which is offset by optimization benefits in longer-running and frequently called functions.
 
 ![Bottom 10 TET Graph](/assets/files/chess-benchmark/bottom10.png)
 
-To measure this relationship, I plotted the relative difference $CPython\_time - PyPy\_time \over CPython\_time + PyPy\_time$ against function call frequency and total function runtime on a logarithmic scale, where positive y-value represents a faster PyPy execution, while negative y-value represents a faster CPython execution.
+To measure this relationship, I plotted the relative difference $$CPython\_time - PyPy\_time \over CPython\_time + PyPy\_time$$ against function call frequency and total function runtime on a logarithmic scale, where positive y-value represents a faster PyPy execution, while negative y-value represents a faster CPython execution.
 
 
 ![RPD vs FCF Graph](/assets/files/chess-benchmark/rpfnfc.png)
