@@ -59,9 +59,11 @@ Conversely, for 10 functions with the least execution time (>0.001 seconds), PyP
 
 ![Bottom 10 TET Graph](/assets/files/chess-benchmark/bottom10.png)
 
-To measure this relationship, I plotted the relative difference $$CPython\_time - PyPy\_time \over CPython\_time + PyPy\_time$$ 
+To measure this relationship, I plotted the relative difference
 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;\frac{CPython\_time-PyPy\_time}{CPython\_time&plus;PyPy\_time}" title="\frac{CPython\_time-PyPy\_time}{CPython\_time+PyPy\_time}" />
+<div style="text-align: center;">
+<img src="https://latex.codecogs.com/svg.image?\inline&space;\LARGE&space;\frac{CPython\_time-PyPy\_time}{CPython\_time&plus;PyPy\_time}" title="\frac{CPython\_time-PyPy\_time}{CPython\_time+PyPy\_time}"/>
+</div>
 
 
 against function call frequency and total function runtime on a logarithmic scale, where positive y-value represents a faster PyPy execution, while negative y-value represents a faster CPython execution.
