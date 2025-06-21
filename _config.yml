@@ -28,3 +28,4 @@ exclude:
   - docker-compose.yml
   - LICENSE
   - README.md
+  - vendor
