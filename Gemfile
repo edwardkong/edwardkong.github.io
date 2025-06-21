@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'cvless', '~> 2.2'
+gem 'cvless', '~> 2.6'
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.17.0"
