@@ -19,8 +19,8 @@ photo: assets/files/headshot-bw-sq.jpeg
 # social media links
 social:
   email: eddiekong13@gmail.com
-  github: edwardkong
-  linkedin: edward-kong-1a059114a
+  github: https://github.com/edwardkong
+  linkedin: https://www.linkedin.com/in/edward-kong-1a059114a
 
 # build settings
 permalink: pretty
